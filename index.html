@@ -1,30 +1,46 @@
 <html>
   <head>
-    <link href="style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
   </head>
   <body>
     <div class="container">
-      <img src="https://avatars.githubusercontent.com/u/58668611?v=4">
+      <img src="https://avatars.githubusercontent.com/u/58668611?v=4" />
       <h1>Gabriel Martins Silva</h1>
       <h2>Desenvolvedor Full Stack</h2>
       <a href="https://www.linkedin.com/in/gabrielmartinssilva/">Linkedin</a>
       <a href="https://github.com/gmartinssilva">Github</a>
-      <br><br>
-      <p>Apaixonado em esportes e videogame, além de grande satisfação em
+      <button onclick="toggleDayMode()">Dark/Light Mode</button>
+      <br /><br />
+      <p>
+        Apaixonado em esportes e videogame, além de grande satisfação em
         resolver desafios. Graduando em Ciência da Computação pela universidade
-        federal de lavras (UFLA).</p>
-      <p>Me sinto confortável em ambientes onde as regras são bem definidas e
+        federal de lavras (UFLA).
+      </p>
+      <p>
+        Me sinto confortável em ambientes onde as regras são bem definidas e
         organizadas por escrito. Possuo interesse na área de desenvolvimento de
         software back-end, tendo curiosidades na parte de qualidade e testes.
-        Gosto de ter contato com algum idioma estrangeiro com frequência.</p>
-      <p>Minhas principais habilidades são: - Desenvolvimento C#, ASP.Net
+        Gosto de ter contato com algum idioma estrangeiro com frequência.
+      </p>
+      <p>
+        Minhas principais habilidades são: - Desenvolvimento C#, ASP.Net
         Framework, HTML, CSS, Javascript - GIT e GitLab - Inglês
-        Pré-Intermediário </p>
-      <p>Atualmente estudo temas como: - Espanhol - Excel - Fundamentos do C# -
+        Pré-Intermediário
+      </p>
+      <p>
+        Atualmente estudo temas como: - Espanhol - Excel - Fundamentos do C# -
         Power Point - Windows 10 da Formatação a Produtividade - Fundamentos da
-        Programação Web - Java</p>
-      <p>Sempre disposto a aprender sobre novas coisas e trocar experiências.
+        Programação Web - Java
+      </p>
+      <p>
+        Sempre disposto a aprender sobre novas coisas e trocar experiências.
       </p>
     </div>
+    <script>
+      function toggleDayMode() {
+        var body = document.body;
+        body.classList.toggle("day-mode");
+      }
+    </script>
   </body>
 </html>
