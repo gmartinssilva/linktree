@@ -6,7 +6,7 @@
 
 # Sobre o projeto
 
-Link para utilizar o projeto: Em breve
+Link para utilizar o projeto: [Netlify](https://linktreepersonal.netlify.app/])
 
 Link Tree foi um projeto desenvolvido em uma live de 90 minutos, em um evento com a empresa [®Driven](https://www.driven.com.br/).
 
